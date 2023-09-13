@@ -17,14 +17,14 @@ One of the most common mistakes in JavaScript is **not properly declaring variab
 ```javascript
 const pi = 3.14159;
 let counter = 0;
-
+```
 :x: Mistake 2: Ignoring Strict Mode
 JavaScript's strict mode helps catch common coding mistakes and "silent" errors by throwing them as exceptions. However, developers often forget to enable strict mode.
 
 Smart Tip: Enable strict mode at the beginning of your JavaScript files or functions to catch errors early:
 ```javascript
 'use strict';
-
+```
 :x: Mistake 3: Neglecting Error Handling
 Failing to handle errors can lead to unexpected crashes in your JavaScript applications. Neglecting error handling is a common mistake, especially in asynchronous code.
 
@@ -36,15 +36,15 @@ try {
 } catch (error) {
   // Handle the error
 }
-
+```
 :x: Mistake 4: Not Using JavaScript Linting
 Linting tools like ESLint help identify and fix coding issues and enforce consistent code styles. Many developers skip using linting tools, leading to inconsistent and error-prone code.
 
 Smart Tip: Set up ESLint in your project and configure it to follow a coding style guide. This ensures clean and maintainable code:
-
+```js
 npm install eslint --save-dev
 npx eslint --init
-
+```
 :x: Mistake 5: Overlooking Memory Management
 JavaScript's automatic memory management can lull developers into a false sense of security. Memory leaks and inefficient memory usage are common issues when managing complex applications.
 
@@ -57,7 +57,7 @@ Smart Tip: Stay up-to-date with ECMAScript standards and embrace new features li
 ```js
 const [first, second] = [1, 2];
 const add = (x, y) => x + y;
-
+```
 :rocket: Conclusion
 JavaScript is a powerful language, but it's essential to be aware of common mistakes and adopt best practices. By avoiding these pitfalls and following smart tips, you can write cleaner, more maintainable code and become a more proficient JavaScript developer.
 
