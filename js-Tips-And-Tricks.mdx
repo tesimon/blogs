@@ -14,9 +14,11 @@ One of the most common mistakes in JavaScript is **not properly declaring variab
 
 **Smart Tip**: Always use `let` or `const` for variable declaration and avoid using `var`, especially in modern JavaScript code. `const` is preferred when the variable's value won't change, and `let` is suitable for variables that will be reassigned.
 
-```javascript
+```js
+
 const pi = 3.14159;
 let counter = 0;
+
 ```
 :x: Mistake 2: Ignoring Strict Mode
 JavaScript's strict mode helps catch common coding mistakes and "silent" errors by throwing them as exceptions. However, developers often forget to enable strict mode.
@@ -30,12 +32,13 @@ Failing to handle errors can lead to unexpected crashes in your JavaScript appli
 
 Smart Tip: Always use try-catch blocks or .catch() with Promises to handle errors gracefully:
 
-```javascript
+```js
 try {
   // Code that may throw an error
 } catch (error) {
   // Handle the error
 }
+
 ```
 :x: Mistake 4: Not Using JavaScript Linting
 Linting tools like ESLint help identify and fix coding issues and enforce consistent code styles. Many developers skip using linting tools, leading to inconsistent and error-prone code.
@@ -54,11 +57,17 @@ Smart Tip: Be mindful of memory management. Use tools like the Chrome DevTools P
 Failing to take advantage of the latest JavaScript features and syntax improvements can result in verbose and less efficient code.
 
 Smart Tip: Stay up-to-date with ECMAScript standards and embrace new features like destructuring, arrow functions, and async/await to write cleaner and more efficient code:
+
+
 ```js
 const [first, second] = [1, 2];
 const add = (x, y) => x + y;
+
+
 ```
-:rocket: Conclusion
+
+
+ Conclusion
 JavaScript is a powerful language, but it's essential to be aware of common mistakes and adopt best practices. By avoiding these pitfalls and following smart tips, you can write cleaner, more maintainable code and become a more proficient JavaScript developer.
 
 Remember that learning and improving your JavaScript skills is an ongoing process, and staying up-to-date with the latest developments in the JavaScript ecosystem is crucial for success.
