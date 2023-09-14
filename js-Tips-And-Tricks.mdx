@@ -8,31 +8,31 @@ tags: ['javascript', 'programming', 'development']
 
 JavaScript is a versatile and powerful programming language that plays a crucial role in web development. However, even experienced developers can fall into common pitfalls and make mistakes when working with JavaScript. In this article, we'll explore some of these mistakes and provide smart tips to help you avoid them.
 
-## :x: Mistake 1: Neglecting Proper Variable Declaration
+## Mistake 1: Neglecting Proper Variable Declaration
 
 One of the most common mistakes in JavaScript is **not properly declaring variables** using `var`, `let`, or `const`. Failing to declare variables can lead to unintended consequences, including global scope pollution.
 
 **Smart Tip**: Always use `let` or `const` for variable declaration and avoid using `var`, especially in modern JavaScript code. `const` is preferred when the variable's value won't change, and `let` is suitable for variables that will be reassigned.
 
-```js
+```jsx
 
 const pi = 3.14159;
 let counter = 0;
 
 ```
-:x: Mistake 2: Ignoring Strict Mode
+ Mistake 2: Ignoring Strict Mode
 JavaScript's strict mode helps catch common coding mistakes and "silent" errors by throwing them as exceptions. However, developers often forget to enable strict mode.
 
 Smart Tip: Enable strict mode at the beginning of your JavaScript files or functions to catch errors early:
 
 'use strict';
 
-:x: Mistake 3: Neglecting Error Handling
+ Mistake 3: Neglecting Error Handling
 Failing to handle errors can lead to unexpected crashes in your JavaScript applications. Neglecting error handling is a common mistake, especially in asynchronous code.
 
 Smart Tip: Always use try-catch blocks or .catch() with Promises to handle errors gracefully:
 
-```js
+```jsx
 try {
   // Code that may throw an error
 } catch (error) {
@@ -40,7 +40,8 @@ try {
 }
 
 ```
-:x: Mistake 4: Not Using JavaScript Linting
+
+Mistake 4: Not Using JavaScript Linting
 Linting tools like ESLint help identify and fix coding issues and enforce consistent code styles. Many developers skip using linting tools, leading to inconsistent and error-prone code.
 
 Smart Tip: Set up ESLint in your project and configure it to follow a coding style guide. This ensures clean and maintainable code:
@@ -48,18 +49,18 @@ Smart Tip: Set up ESLint in your project and configure it to follow a coding sty
 npm install eslint --save-dev
 npx eslint --init
 
-:x: Mistake 5: Overlooking Memory Management
+ Mistake 5: Overlooking Memory Management
 JavaScript's automatic memory management can lull developers into a false sense of security. Memory leaks and inefficient memory usage are common issues when managing complex applications.
 
 Smart Tip: Be mindful of memory management. Use tools like the Chrome DevTools Performance tab to analyze memory usage and identify and resolve memory leaks.
 
-:x: Mistake 6: Not Embracing ES6+ Features
+ Mistake 6: Not Embracing ES6+ Features
 Failing to take advantage of the latest JavaScript features and syntax improvements can result in verbose and less efficient code.
 
 Smart Tip: Stay up-to-date with ECMAScript standards and embrace new features like destructuring, arrow functions, and async/await to write cleaner and more efficient code:
 
 
-```js
+```jsx
 const [first, second] = [1, 2];
 const add = (x, y) => x + y;
 
